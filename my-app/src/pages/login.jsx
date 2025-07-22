@@ -10,7 +10,7 @@ export default function Login() {
 return (
   <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-b from-black to-green-600 text-center px-4">
     <h1 className="text-5xl font-extrabold text-white mb-12 drop-shadow-lg">
-      Welcome to <span className="text-green-400">GitBuddy</span>
+      Welcome to <span className="text-green-400">Buddy</span>
     </h1>
 
     <button
