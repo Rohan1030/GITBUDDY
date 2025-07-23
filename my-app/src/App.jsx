@@ -4,11 +4,16 @@ import Callback from "./pages/Callback";
 import Profile from './pages/Profile';
 import Repos from './pages/Repo';
 import Push from "./pages/Push.jsx";
+import logoutButton from './components/LogoutButton.jsx';
 
 
 export default function App() {
   return (
    <BrowserRouter>
+   <div
+   className="relative"
+   >
+    {isLoggedIn && <logoutButton/>}
    <Routes> 
     <Route path="/" element={<Login/>}  />
     <Route path="/callback" element ={<Callback/>} />
@@ -16,7 +21,9 @@ export default function App() {
      <Route path="/repos" element={<Repos/>}/>
      <Route path="/push" element={<Push />} />
 
+
    </Routes>
+   </div>
    </BrowserRouter>
   );
 }
