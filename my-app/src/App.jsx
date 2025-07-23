@@ -4,16 +4,18 @@ import Callback from "./pages/Callback";
 import Profile from './pages/Profile';
 import Repos from './pages/Repo';
 import Push from "./pages/Push.jsx";
-import logoutButton from './components/LogoutButton.jsx';
+import LogoutButton from './components/LogoutButton';
 
 
 export default function App() {
+   const isLoggedIn = !!localStorage.getItem("github_token");
+  
   return (
    <BrowserRouter>
    <div
    className="relative"
    >
-    {isLoggedIn && <logoutButton/>}
+    {isLoggedIn && <LogoutButton/>}
    <Routes> 
     <Route path="/" element={<Login/>}  />
     <Route path="/callback" element ={<Callback/>} />
