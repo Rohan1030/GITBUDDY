@@ -44,8 +44,16 @@ All without leaving the browser.
 
 ## 📸 Screenshots
 
-> *(<img width="1920" height="887" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/90679184-f527-4029-b233-a6fcd3a01d76" />
-)*
+<img width="1920" height="907" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/cbbef216-5e18-4689-ace1-aa07d1af5359" />
+<img width="1917" height="888" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/ecce1ebe-c254-4746-a972-7b91efa31f04" />
+<img width="1902" height="892" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/780edfd8-c84c-40fa-8adc-db106ff0993c" />
+<img width="1920" height="887" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9eec3bd6-aae9-411c-b300-f899f5923f35" />
+
+
+
+
+
+
 
 - Login Page  
 - Dashboard View  
